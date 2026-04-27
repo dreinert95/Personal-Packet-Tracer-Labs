@@ -5,7 +5,7 @@ I utilized ChatGPT to prompt me for 10 Cisco Packet Tracer Labs from Beginner to
 
 # Beginner Labs
 
-1. Basic Network Setup (2 PCs + Switch)
+1. Basic Network Setup (2 PCs + Switch) :computer:
 
    - Connect 2 PCs to a Switch
    - Assign IP Addresses manually
