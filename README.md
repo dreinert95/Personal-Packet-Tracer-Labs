@@ -11,4 +11,4 @@ I utilized ChatGPT to prompt me for 10 Cisco Packet Tracer Labs from Beginner to
    - Assign IP Addresses manually
    - Test them with ping
 
-       - Ping is a computer network tool used to test connectivity and the distance between two devices. Ping measures the time it takes for a client to get a response from a server, most often measured in milliseconds. The lower the ping, the faster the response time.
+       - Ping is a computer network tool used to test connectivity and the distance between two devices. Ping measures the round-trip time it takes for a client to get a response from a server, most often measured in milliseconds. The lower the ping, the faster the response time.
