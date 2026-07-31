@@ -5,7 +5,7 @@ I utilized ChatGPT to prompt me for 10 Cisco Packet Tracer Labs from Beginner to
 
 # Beginner Labs
 
-Lab 1: Basic Network Setup (2 PCs + Switch) :computer:
+Lab 1: Basic Network Setup (2 PCs + Switch) 💻
 
    - Connect 2 PCs to a Switch
    - Assign IP Addresses manually
@@ -16,7 +16,7 @@ Lab 1: Basic Network Setup (2 PCs + Switch) :computer:
 
  # Part 1 - Build the topology 🌐
 - Add a Switch:
-- Select 'Network Devices' --> 'Switches' --> '2960 IOS15' (model of the Cisco Catalyst 2960 Series Switches). Drag the selection into the center of the workspace.
+   - Select 'Network Devices' --> 'Switches' --> '2960 IOS15' (model of the Cisco Catalyst 2960 Series Switches). Drag the selection into the center of the workspace.
       
       - 2960-24TT Specifications:
          - Uplink Interfaces: 2 x 10/100/1000 TX uplinks
@@ -28,3 +28,16 @@ Lab 1: Basic Network Setup (2 PCs + Switch) :computer:
    - Select 'PC'. Drag two PCs into the workspace.
 
          - PC0 --- SWITCH --- PC1
+
+# Part 2 - Connect the devices 🔌
+- Select cable type:
+  - Click the "connections" icon (lightening bolt)
+       - Copper Straight-Through
+- Connect PC0:
+  - click PC0 --> FastEthernet0 then click the switch --> FastEthernet0/1
+- Connect PC1:
+  - click PC1 --> FastEthernet0 then click the switch --> FastEthernet0/2
+- The port lights will usually be orange for a few seconds while the switch initializes. After about 30 seconds, they should turn green.
+- Green = Link is up 🟢
+
+# Part 3 - Configure the IP Addresses 🔧
