@@ -41,3 +41,13 @@ Lab 1: Basic Network Setup (2 PCs + Switch) 💻
 - Green = Link is up 🟢
 
 # Part 3 - Configure the IP Addresses 🔧
+- Click into PC0
+  - Desktop --> IP Configuration
+  - Select "Static"
+       - IP Address: 192.168.1.10
+       - Subnet Mask: 255.255.255.0
+- Click into PC1
+  - Desktop --> IP Configuration
+  - Select "Static"
+       - IP Address: 192.168.1.11
+       - Subnet Mask: 255.255.255.0
